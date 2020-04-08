@@ -1,0 +1,103 @@
+
+
+html {
+    background-color: rgb(231, 231, 231) ;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(24, 24, 24);
+    font-family: 'Montserrat';
+    font-size: 50px;
+    text-align: center;
+}
+
+.buttons {
+    
+    text-align: center;
+    justify-content: center;
+  }
+
+button {
+    
+    background-color: rgb(124, 134, 134);
+    border: none;
+    color: white;
+    text-decoration: none;
+    
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 30px;       
+    margin: 4px 2px; 
+    
+    font-size: 25px;
+    transition-duration: 1s;
+    cursor: pointer;
+    border-radius: 12px;  
+}
+
+button:hover {
+    background-color: rgb(255, 173, 80);
+    color: white;
+}
+
+#computerSel {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: gray;
+    text-align: center;
+}
+
+#playerSel {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: rgb(255, 173, 80);
+    text-align: center;
+}
+
+#gameRes {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+#results {
+    
+    text-align: center;
+    justify: center;
+        
+    
+    
+  
+}
+
+#playerRes  {
+    float: left;
+    color: rgb(255, 173, 80);
+    font-family: 'Montserrat';
+    font-size: 200px;
+    
+
+}
+
+#computerRes  {
+    float: right;
+    color: gray;
+    font-family: 'Montserrat';
+    font-size: 200px;
+    
+}
+
+#finalRes {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 150px;
+    font-family: 'Montserrat';
+    color: rgb(188, 130, 255);
+    text-align: center;
+}
+
